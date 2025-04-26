@@ -1,7 +1,8 @@
 "use client";
 
 import { cn } from "@/lib/utils";
-import { motion, useAnimation } from "motion/react";
+import { motion, useAnimation } from "framer-motion";
+
 import React, { useEffect, useRef, useState } from "react";
 
 interface ScratchToRevealProps {
